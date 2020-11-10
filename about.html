@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project-Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/global.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/about.css">
+    <script src="Javascript/globaljs.js"></script>
+</head>
+<body class="fade-in">
+    <header>
+           <a href="index.html"><img src="photos/Icons/logo(filled%20BORDER%20large%20black)-01.png" alt="JANUARIUS PHOTOGRAPHY" id="logo" class="center"></a>
+           <nav id="nav">
+               <ul class="menu">
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="services.html">SERVICES</a>
+                       <ul>
+                           <li><a href="indoor.html">INDOOR</a></li>
+                           <li><a href="outdoor.html">OUTDOOR</a></li>
+                           <li id="studiomen"><a href="studio.html">STUDIO</a></li>
+                       </ul>
+                   </li>
+                   <li class="activemenu"><a href="about.html">ABOUT</a></li>
+                   <li><a href="portfolio.html">PORTFOLIO</a></li>
+                   <li><a href="members.php">MEMBERS</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+                <form action="/action_page.php" id="form">
+                    <input type="search" placeholder="  Search" name="search" id="searchbar">
+                </form>
+           </nav>
+           <div class="menu-toggle" onclick="navbar()"><p id="menutxt">HOME</p></div>
+           <div class="tab" id="tab" onclick="navbar()">
+              <hr id="border-delete" class="hidden">
+              <div class="arrow-down"></div>
+           </div>
+    </header>
+    <article>
+        <h1 id="about-txt">ABOUT</h1>
+        <div class="foundercontainer">
+            <div class="box img1">
+                <img src="photos/82e649e3-a12c-427e-853d-1fb97ddf161b.jpg" alt="profilepic" id="profilepic" class="center">
+            </div>
+            <div class="box paragraphtxt">
+                <p id="abtme-head1">Hi! I'm Jauarius.</p>
+                <p class="abtme-text">Founder</p>
+                <p id="abtme-para">I'm a freelance photographer based in Singapore, who specializes in photographing pets. Fun fact: I have a mild pet obsession, but I don't own any pets unfortunately.
+                I found myself taking up an offer to photograph a pet for a client I had met while studying. 
+                What started by chance turned out to be the perfect mixture of challenges and a creative outlet, 
+                and I decided right there and then that this is what I want to pursue as a career. 
+                In 2015, I founded this photography studio, Januarius Photography, to help pet owners create new memories with their pets and immortalise these moments.</p>
+            </div>
+        </div>
+        <h1 id="employee-txt">OUR STAFF</h1>
+        <div class="employeecontainer">
+            <div class=" employeeno1">
+               <div class="box img4">
+                    <img src="photos/dmitriy-7DD6tfTKqS4-unsplash.jpg" alt="employeeno3pic" id="employeeno3pic" class="center">
+                </div>
+                <div class="box paragraphtxt">
+                    <p class="abtme-head">Hi! I'm Judy.</p>
+                    <p class="abtme-text">Co-founder</p>
+                </div>
+            </div>
+            <div class=" employeeno2">
+               <div class="box img2">
+                    <img src="photos/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt="employeeno1pic" id="employeeno1pic" class="center">
+                </div>
+                <div class="box paragraphtxt">
+                    <p class="abtme-head">Hi! I'm Samantha.</p>
+                    <p class="abtme-text">Senior Photographer</p>
+                </div>
+            </div>
+            <div class=" employeeno3">
+                <div class="box img3">
+                    <img src="photos/dmitriy-idoedMZ732E-unsplash.jpg" alt="employeeno2pic" id="employeeno2pic" class="center">
+                </div>
+                <div class="box paragraphtxt">
+                    <p class="abtme-head">Hi! I'm Daren.</p>
+                    <p class="abtme-text">Junior Photographer</p>
+                </div>
+            </div>
+        </div>
+        <aside>
+            <h2 class="hr-sect">Mission</h2>
+            <p class="box mission-text">Our photographers are highly experienced, and through their proficient grasp on photography techniques, 
+                 they are able to capture the attributes and unique personalities of your pets. Your pet's comfort and well-being are our absolute and number one priority, and we aim to capture the very best moments.
+                Cliche as it may be, a picture speaks a thousand words and we want to immortalise memories that you share with your pets, so that you will have a picture that you can treasure forever.</p>
+            <h2 id="featured-text">Featured On</h2>
+            <div class="featurecontainer" id="featurewrapper">
+                <div class="box box1">
+                    <img class="img" src="photos/National_Geographic_logo.png" alt="img1" id="national">
+                </div>
+                <div class="box box2">
+                    <img class="img" src="photos/pdnonline-no-photo-1.jpg" alt="img2" id="photodn">
+                </div>
+                <div class="box box3">
+                    <img class="img" src="photos/OP-Facebook-Hero.jpg" alt="img3" id="outdoor">
+                </div>
+            </div>
+        </aside>
+    </article>
+    <footer>
+       <section id="mediaicons">
+            <a href="https://www.instagram.com/piak_piaks/"><img src="photos/Icons/instagram.png" alt="instagram" class="icons"></a>
+            <a href="https://www.facebook.com/leejanuarius"><img src="photos/Icons/facebook.png" alt="facebook" class="icons"></a>
+            <a href="https://www.linkedin.com/in/januarius-lee"><img src="photos/Icons/linkedin.png" alt="linkedin" class="icons"></a>
+            <a href="mailto:Leejanuarius1@gmail.com"><img src="photos/Icons/mail.png" alt="mail" class="icons"></a>
+        </section>
+        <p id="footertxt">Made by : Januarius Lee ( 190340P ) &copy; 2020</p>
+    </footer>
+</body>
+</html>

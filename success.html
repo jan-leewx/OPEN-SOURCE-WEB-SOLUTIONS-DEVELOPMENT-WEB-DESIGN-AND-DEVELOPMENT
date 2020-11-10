@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/global.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/success.css">
+    <script src="Javascript/globaljs.js"></script>
+</head>
+<body class="fade-in">
+    <header>
+          <div id="menubg">
+           <a href="index.html"><img src="photos/Icons/logo(filled%20BORDER%20large%20black)-01.png" alt="JANUARIUS PHOTOGRAPHY" id="logo" class="center"></a>
+           <nav id="nav">
+               <ul class="menu">
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="services.html">SERVICES</a>
+                       <ul>
+                           <li><a href="indoor.html">INDOOR</a></li>
+                           <li><a href="outdoor.html">OUTDOOR</a></li>
+                           <li id="studiomen"><a href="studio.html">STUDIO</a></li>
+                       </ul>
+                   </li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="portfolio.html">PORTFOLIO</a></li>
+                   <li class="activemenu"><a href="members.php">MEMBERS</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+            <form action="/action_page.php" id="form">
+                <input type="search" placeholder="  Search" name="search" id="searchbar">
+            </form>
+           </nav>
+           <div class="menu-toggle" onclick="navbar()"><p id="menutxt">HOME</p></div>
+           <div class="tab" id="tab" onclick="navbar()">
+              <hr id="border-delete" class="hidden">
+              <div class="arrow-down"></div>
+           </div>
+       </div>
+    </header>
+    <article>
+        <h1 id="services-txt">Booking Success</h1>
+        <section>
+            <input type="submit" value="Back to Members Page" class="submit-btn" onclick="window.location.href='members_access.php';">
+            <input type="submit" value="Book more services" class="submit-btn" onclick="window.location.href='book_appointment.php';">
+        </section>
+    </article>
+    <footer>
+        <p id="footertxt">Made by : Januarius Lee ( 190340P ) &copy; 2020</p>
+    </footer>
+    <script>
+        let div = document.querySelector('div');
+        window.addEventListener('scroll' , function(){
+            let value = 1 + window.scrollY/-1300;
+            div.style.opacity = value;
+        });
+    </script>
+</body>
+</html>

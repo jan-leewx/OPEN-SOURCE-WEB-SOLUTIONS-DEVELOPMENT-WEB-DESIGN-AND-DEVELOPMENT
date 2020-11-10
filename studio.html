@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project-Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/global.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/studio.css">
+    <script src="Javascript/globaljs.js"></script>
+</head>
+<body class="fade-in">
+    <header>
+       <div class="bg-imgstudio">
+           <a href="index.html"><img src="photos/Icons/logo(filled%20BORDER%20large%20black)-01.png" alt="JANUARIUS PHOTOGRAPHY" id="logo" class="center"></a>
+           <nav id="nav">
+               <ul class="menu">
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="services.html">SERVICES</a>
+                       <ul>
+                           <li><a href="indoor.html">INDOOR</a></li>
+                           <li><a href="outdoor.html">OUTDOOR</a></li>
+                           <li class="activemenu" id="studiomen"><a href="studio.html">STUDIO</a></li>
+                       </ul>
+                   </li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="portfolio.html">PORTFOLIO</a></li>
+                   <li><a href="members.php">MEMBERS</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+                <form action="/action_page.php" id="form">
+                    <input type="search" placeholder="  Search" name="search" id="searchbar">
+                </form>
+           </nav>
+           <div class="menu-toggle" onclick="navbar()"><p id="menutxt">HOME</p></div>
+           <div class="tab" id="tab" onclick="navbar()">
+              <hr id="border-delete" class="hidden">
+              <div class="arrow-down"></div>
+           </div>
+       </div>
+    </header>
+    <article>
+        <h1 id="studio-txt">STUDIO</h1>
+        <div class="servicecontainer">
+            <div class="box img1">
+                <img src="photos/charles-deluvio-AQRp2NH-O8k-unsplash.jpg" alt="profilepic" id="profilepic" class="center">
+            </div>
+            <div class="box paragraphtxt">
+                <p class="studio-head">STUDIO SERVICES</p>
+                <p class="studio-para">We provide professional photography for your pets in your lovely homes. After the 2 hour session, you will end up
+                professionally taken and eddited photos for you to take back home, either digitally or physically.
+                </p>
+                <p class="studio-head">STUDIO PACKAGE (S$500/2 HOUR)</p>
+                <dl>
+                    <dt><p class="studio-para">Includes :</p></dt>
+                    <dd class="addservicelist">- 2 hours of profesisonal photography</dd>
+                    <dd class="addservicelist">- Lighting and camera equipment</dd>
+                    <dd class="addservicelist">- Edditing and finalisation of pictures</dd>
+                    <dd class="addservicelist">- x4 of physical copies of taken and eddited pictures</dd>
+                    <dd class="addservicelist">- all digital copies pictures taken during shoot</dd>
+                </dl>
+                <dl>
+                    <dt><p class="studio-head">Extra Services</p></dt>
+                    <dd class="addservicelist">- Grooming- ( S$50 )</dd>
+                    <dd class="addservicelist">- Warm-up service- ( S$50/.5hr )</dd>
+                    <dd class="addservicelist">- Box of accessories- ( S$50 )</dd>
+                    <dd id="warning">*ADDITIONAL SERVICES PRICES ARE COUNTED PER PET*</dd>
+                </dl>
+                <div class="btns">
+                    <input type="submit" value="<- Back to services" class="submit-btn" onclick="window.location.href='services.html';">
+                    <form method="post" action="/action_page.php" class="moreinfo/submit">
+                        <input type="submit" value="Book Now" class="book-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <p id="footertxt">Made by : Januarius Lee ( 190340P ) &copy; 2020</p>
+    </footer>
+    <script>
+        let div = document.querySelector('div');
+        window.addEventListener('scroll' , function(){
+            let value = 1 + window.scrollY/-1300;
+            div.style.opacity = value;
+        });
+    </script>
+</body>
+</html>

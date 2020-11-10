@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project-Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/reset.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/global.css">
+    <link rel="stylesheet" type="text/css" href="Stylesheets/services.css">
+    <script src="Javascript/globaljs.js"></script>
+</head>
+<body class="fade-in">
+    <header>
+           <a href="index.html"><img src="photos/Icons/logo(filled%20BORDER%20large%20black)-01.png" alt="JANUARIUS PHOTOGRAPHY" id="logo" class="center"></a>
+           <nav id="nav">
+               <ul class="menu">
+                   <li><a href="index.html">HOME</a></li>
+                   <li class="activemenu"><a href="services.html">SERVICES</a>
+                       <ul>
+                           <li><a href="indoor.html">INDOOR</a></li>
+                           <li><a href="outdoor.html">OUTDOOR</a></li>
+                           <li id="studiomen"><a href="studio.html">STUDIO</a></li>
+                       </ul>
+                   </li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="portfolio.html">PORTFOLIO</a></li>
+                   <li><a href="members.php">MEMBERS</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+                <form action="/action_page.php" id="form">
+                    <input type="search" placeholder="  Search" name="search" id="searchbar">
+                </form>
+           </nav>
+           <div class="menu-toggle" onclick="navbar()"><p id="menutxt">HOME</p></div>
+           <div class="tab" id="tab" onclick="navbar()">
+              <hr id="border-delete" class="hidden">
+              <div class="arrow-down"></div>
+           </div>
+    </header>
+    <article>
+        <h1 id="services-txt">SERVICES</h1>
+        <div class="services-flex">
+            <div class=" box container">
+                <img class="img" src="photos/eric-han-WJ6fmN1D-h0-unsplash.jpg" alt="img1" id="indoor">
+                <div class="txts">
+                    <p class="section-text">INDOOR</p>
+                    <p class="para-txt">Our photgrapher will be with you throughout your booked timeslot, taking solo pictures of your pets or with you posing with your pet. This will be done in your humble abode, 
+                    where there is a homely feel captured in every single picture, encapsulating memories of you and your pet forever.</p>
+                    <p class="add-head">Additional Services</p>
+                    <p class="add-txt">- Grooming</p>
+                    <p class="add-txt">- Warm-up </p>
+                    <p class="add-txt">- Accessories</p>
+                    <div class="btns">
+                        <input type="submit" value="More information" class="submit-btn" onclick="window.location.href='indoor.html';">
+                        <form method="post" action="/action_page.php" class="moreinfo/submit">
+                            <input type="submit" value="Book Now" class="book-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="box container">
+                <img class="img" src="photos/riley-currie-u8_DKKmOyEk-unsplash.jpg" alt="img1" id="outdoor">
+                <div class="txts">
+                    <p class="section-text">OUTDOOR</p>
+                    <p class="para-txt">Our photgrapher will be with you throughout your booked timeslot, taking solo pictures of your pets or with you posing with your pet. This will be done in the big outdoors, 
+                    where there is a rustic and natural feel to every single picture, capturing memories of your pets' playful energy.</p>
+                    <p class="add-head">Additional Services</p>
+                    <p class="add-txt">- Grooming</p>
+                    <p class="add-txt">- Warm-up </p>
+                    <p class="add-txt">- Accessories</p>
+                    <div class="btns">
+                        <input type="submit" value="More information" class="submit-btn" onclick="window.location.href='outdoor.html';">
+                        <form method="post" action="/action_page.php" class="moreinfo/submit">
+                            <input type="submit" value="Book Now" class="book-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="box container">
+                <img class="img" src="photos/the-lucky-neko-uePn9YCTCY0-unsplash.jpg" alt="img1" id="studio">
+                <div class="txts">
+                    <p class="section-text">STUDIO</p>
+                    <p class="para-txt">Our photgrapher will be with you throughout your booked timeslot, taking solo pictures of your pets or with you posing with your pet. This will be done in our professional studio, 
+                    with the perfect lighting and camera equipment, thus creating beautiful memories of your pets for you to admire forever.</p>
+                    <p class="add-head">Additional Services</p>
+                    <p class="add-txt">- Grooming</p>
+                    <p class="add-txt">- Warm-up </p>
+                    <p class="add-txt">- Accessories</p>
+                    <div class="btns">
+                        <input type="submit" value="More information" class="submit-btn" onclick="window.location.href='studio.html';">
+                        <form method="post" action="/action_page.php" class="moreinfo/submit">
+                            <input type="submit" value="Book Now" class="book-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+       <section id="mediaicons">
+            <a href="https://www.instagram.com/piak_piaks/"><img src="photos/Icons/instagram.png" alt="instagram" class="icons"></a>
+            <a href="https://www.facebook.com/leejanuarius"><img src="photos/Icons/facebook.png" alt="facebook" class="icons"></a>
+            <a href="https://www.linkedin.com/in/januarius-lee"><img src="photos/Icons/linkedin.png" alt="linkedin" class="icons"></a>
+            <a href="mailto:Leejanuarius1@gmail.com"><img src="photos/Icons/mail.png" alt="mail" class="icons"></a>
+        </section>
+        <p id="footertxt">Made by : Januarius Lee ( 190340P ) &copy; 2020</p>
+    </footer>
+    <script>
+        let div = document.querySelector('div');
+        window.addEventListener('scroll' , function(){
+            let value = 1 + window.scrollY/-1300;
+            div.style.opacity = value;
+        });
+    </script>
+</body>
+</html>
