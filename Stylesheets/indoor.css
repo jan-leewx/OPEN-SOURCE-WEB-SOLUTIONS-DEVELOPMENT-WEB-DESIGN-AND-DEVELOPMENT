@@ -1,0 +1,418 @@
+@media only screen and (max-width : 480px)
+{
+    .bg-imgindoor
+    {
+        background-image: url('../photos/eric-han-WJ6fmN1D-h0-unsplash.jpg');
+        min-height: 1210px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #indoor-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #profilepic
+    {
+        width: 100%;
+        min-height: 730px;
+        margin-bottom: 50px;
+    }
+    .indoor-para
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .indoor-price
+    {
+        font-family: Raleway-Thin;
+        color: #1C1C21;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .indoor-head
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .addservicecontainer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .addservicelist
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .foundercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .btns
+    {
+        display: flex;
+        margin-top: 60px;
+    }
+    .submit-btn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+    }
+    .book-btn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+    }
+    .submit-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    .book-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #warning
+    {
+        font-family: OstrichSans-Black;
+        color: #EA7E1F;
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    .bg-imgindoor
+    {
+        background-image: url('../photos/eric-han-WJ6fmN1D-h0-unsplash.jpg');
+        min-height: 1210px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #indoor-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #profilepic
+    {
+        width: 100%;
+        min-height: 730px;
+        margin-bottom: 50px;
+    }
+    .indoor-para
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .indoor-price
+    {
+        font-family: Raleway-Thin;
+        color: #1C1C21;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .indoor-head
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .addservicecontainer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .addservicelist
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .foundercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .btns
+    {
+        display: flex;
+        margin-top: 60px;
+    }
+    .submit-btn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+    }
+    .book-btn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+    }
+    .submit-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    .book-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #warning
+    {
+        font-family: OstrichSans-Black;
+        color: #EA7E1F;
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    .bg-imgindoor
+    {
+        background-image: url('../photos/eric-han-WJ6fmN1D-h0-unsplash.jpg');
+        min-height: 1210px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #indoor-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .indoor-para
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .indoor-price
+    {
+        font-family: Raleway-Thin;
+        color: #1C1C21;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .indoor-head
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .addservicecontainer
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .addservicelist
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .foundercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .btns
+    {
+        display: flex;
+        margin-top: 60px;
+    }
+    .submit-btn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+    }
+    .book-btn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+    }
+    .submit-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    .book-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #warning
+    {
+        font-family: OstrichSans-Black;
+        color: #EA7E1F;
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+

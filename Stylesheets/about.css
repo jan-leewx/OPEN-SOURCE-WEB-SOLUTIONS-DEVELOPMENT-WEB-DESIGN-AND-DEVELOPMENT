@@ -1,0 +1,377 @@
+@media only screen and (max-width : 480px)
+{
+    #about-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #employee-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #abtme-para
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    #abtme-head1
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    .abtme-head
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    .abtme-text
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 50px
+    }
+    .foundercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .employeecontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        text-align: center;
+    }
+    .hr-sect 
+    {
+        color: #1C1C21;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: OstrichSans-Black;
+        font-size: 95px;
+        text-align: center;
+    }
+    .mission-text
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+    }
+    #featured-text
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .featurecontainer
+    {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 20px;
+        align-items: center;
+    }
+    #national
+    {
+        width: 100%;
+    }
+    #photodn
+    {
+        width: 100%;
+    }
+    #outdoor
+    {
+        width: 100%;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    #about-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #employee-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #abtme-para
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    #abtme-head1
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    .abtme-head
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    .abtme-text
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 50px
+    }
+    .foundercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .employeecontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        text-align: center;
+    }
+    .hr-sect 
+    {
+        color: #1C1C21;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: OstrichSans-Black;
+        font-size: 95px;
+        text-align: center;
+    }
+    .mission-text
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+    }
+    #featured-text
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .featurecontainer
+    {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 20px;
+        align-items: center;
+    }
+    #national
+    {
+        width: 100%;
+    }
+    #photodn
+    {
+        width: 100%;
+    }
+    #outdoor
+    {
+        width: 100%;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    #about-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #employee-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #abtme-para
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    #abtme-head1
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 150px;
+    }
+    .abtme-head
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 50px;
+    }
+    .abtme-text
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+    }
+    .foundercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    .employeecontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,1fr);
+        text-align: center;
+    }
+    .hr-sect 
+    {
+        color: #1C1C21;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: OstrichSans-Black;
+        font-size: 95px;
+        text-align: center;
+    }
+    .mission-text
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+    }
+    #featured-text
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .featurecontainer
+    {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 20px;
+        align-items: center;
+    }
+    #national
+    {
+        width: 100%;
+    }
+    #photodn
+    {
+        width: 100%;
+    }
+    #outdoor
+    {
+        width: 100%;
+    }
+}

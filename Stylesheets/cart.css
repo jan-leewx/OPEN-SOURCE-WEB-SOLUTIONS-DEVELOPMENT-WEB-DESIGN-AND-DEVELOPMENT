@@ -1,0 +1,755 @@
+@media only screen and (max-width : 480px)
+{
+    #cart-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .progressbar 
+    {
+        counter-reset: step;
+    }
+    .baritems 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        list-style-type: none;
+        width: 25%;
+        float: left;
+        font-size: 25px;
+        position: relative;
+        text-align: center;
+        color: #1C1C21;
+        margin-bottom: 100px;
+    }
+    .baritems:before 
+    {
+        width: 40px;
+        height: 40px;
+        content: counter(step);
+        counter-increment: step;
+        line-height: 30px;
+        border: 2px solid #1C1C21;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .baritems:after 
+    {
+        width: 100%;
+        height: 2px;
+        content: '';
+        position: absolute;
+        background-color: #1C1C21;
+        top: 15px;
+        left: -50%;
+        z-index: -1;
+    }
+    .baritems:first-child:after
+    {
+        content: none;
+    }
+    .active 
+    {
+        color: #EA7E1F;
+    }
+    .active:before
+    {
+        border-color: #EA7E1F;
+    }
+    .active + .baritems:after 
+    {
+        background-color: #EA7E1F;
+    }
+    #container
+    {
+         margin-bottom: 200px;   
+    }
+    table, thead, tbody, th, td, tr 
+    {
+         display: block;
+    }
+    thead tr 
+    {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+    tr 
+    {
+         margin: 0 0 1rem 0;
+    }
+    tr:nth-child(odd) 
+    {
+         background-color: #EA7E1F;
+    }
+    tr:nth-child(odd) input[type=submit]:hover
+    {
+         background-color: #F5F5F5;
+    }
+    td
+    {  
+        border: none;
+        border-bottom: 2px solid #1C1C21;
+        position: relative;
+        padding-left: 50%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #1C1C21;
+    }
+    td:before 
+    {
+        position: absolute;
+        top: 10px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    
+    td:nth-of-type(1):before { content: "Username"; }
+    td:nth-of-type(2):before { content: "Date"; }
+    td:nth-of-type(3):before { content: "Time"; }
+    td:nth-of-type(4):before { content: "Category"; }
+    td:nth-of-type(5):before { content: "Grooming"; }
+    td:nth-of-type(6):before { content: "Warm-up"; }
+    td:nth-of-type(7):before { content: "Accessories"; }
+    td:nth-of-type(7):before { content: "Delete"; }
+    
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 100%;
+        height: 100%;
+    }
+    input[type=submit]:hover
+    {
+        background-color: #EA7E1F;
+    }
+    #submit-btn
+    {
+        width: 44%;
+        float: right;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 20px;
+        padding: 5px;
+        margin-top: -200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        margin-right: 5%;
+    }
+    #submit-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #back-btn
+    {
+        width: 44%;
+        float: left;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 20px;
+        padding: 5px;
+        margin-top: -200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        margin-left: 5%;
+    }
+    #back-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: auto;
+    }
+    #promosub
+    {
+        width: 200px;
+        border-left: 2px solid transparent;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+    }
+    #promosub:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #promobox
+    {
+        width: 200px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        margin-right: -6px;
+    }
+    #promobox:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    #promobox:focus
+    {
+        border-bottom: 2px solid #EA7E1F;
+    }
+    #promoform
+    {
+        margin-top: 200px;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    #cart-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .progressbar 
+    {
+        counter-reset: step;
+    }
+    .baritems 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        list-style-type: none;
+        width: 25%;
+        float: left;
+        font-size: 25px;
+        position: relative;
+        text-align: center;
+        color: #1C1C21;
+        margin-bottom: 100px;
+    }
+    .baritems:before 
+    {
+        width: 40px;
+        height: 40px;
+        content: counter(step);
+        counter-increment: step;
+        line-height: 30px;
+        border: 2px solid #1C1C21;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .baritems:after 
+    {
+        width: 100%;
+        height: 2px;
+        content: '';
+        position: absolute;
+        background-color: #1C1C21;
+        top: 15px;
+        left: -50%;
+        z-index: -1;
+    }
+    .baritems:first-child:after
+    {
+        content: none;
+    }
+    .active 
+    {
+        color: #EA7E1F;
+    }
+    .active:before
+    {
+        border-color: #EA7E1F;
+    }
+    .active + .baritems:after 
+    {
+        background-color: #EA7E1F;
+    }
+    #container
+    {
+         margin-bottom: 200px;   
+    }
+    table, thead, tbody, th, td, tr 
+    {
+         display: block;
+    }
+    thead tr 
+    {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+    tr 
+    {
+         margin: 0 0 1rem 0;
+    }
+    tr:nth-child(odd) 
+    {
+         background-color: #EA7E1F;
+    }
+    tr:nth-child(odd) input[type=submit]:hover
+    {
+         background-color: #F5F5F5;
+    }
+    td
+    {  
+        border: none;
+        border-bottom: 2px solid #1C1C21;
+        position: relative;
+        padding-left: 50%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #1C1C21;
+    }
+    td:before 
+    {
+        position: absolute;
+        top: 10px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    
+    td:nth-of-type(1):before { content: "Username"; }
+    td:nth-of-type(2):before { content: "Date"; }
+    td:nth-of-type(3):before { content: "Time"; }
+    td:nth-of-type(4):before { content: "Category"; }
+    td:nth-of-type(5):before { content: "Grooming"; }
+    td:nth-of-type(6):before { content: "Warm-up"; }
+    td:nth-of-type(7):before { content: "Accessories"; }
+    td:nth-of-type(7):before { content: "Delete"; }
+    
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 15px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 100%;
+        height: 100%;
+    }
+    input[type=submit]:hover
+    {
+        background-color: #EA7E1F;
+    }
+    #submit-btn
+    {
+        width: 40%;
+        float: right;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        margin-right: 5%;
+    }
+    #submit-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #back-btn
+    {
+        width: 40%;
+        float: left;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        margin-left: 5%;
+    }
+    #back-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: auto;
+    }
+    #promosub
+    {
+        width: 200px;
+        border-left: 2px solid transparent;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -100px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+    }
+    #promosub:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #promobox
+    {
+        width: 200px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -100px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        margin-right: -6px;
+    }
+    #promobox:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    #promobox:focus
+    {
+        border-bottom: 2px solid #EA7E1F;
+    }
+    #promoform
+    {
+        margin-top: 100px;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    #cart-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .progressbar 
+    {
+        counter-reset: step;
+    }
+    .baritems 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        list-style-type: none;
+        width: 25%;
+        float: left;
+        font-size: 25px;
+        position: relative;
+        text-align: center;
+        color: #1C1C21;
+        margin-bottom: 100px;
+    }
+    .baritems:before 
+    {
+        width: 40px;
+        height: 40px;
+        content: counter(step);
+        counter-increment: step;
+        line-height: 30px;
+        border: 2px solid #1C1C21;
+        display: block;
+        text-align: center;
+        margin: 0 auto 10px auto;
+        border-radius: 50%;
+        background-color: white;
+    }
+    .baritems:after 
+    {
+        width: 100%;
+        height: 2px;
+        content: '';
+        position: absolute;
+        background-color: #1C1C21;
+        top: 15px;
+        left: -50%;
+        z-index: -1;
+    }
+    .baritems:first-child:after
+    {
+        content: none;
+    }
+    .active 
+    {
+        color: #EA7E1F;
+    }
+    .active:before
+    {
+        border-color: #EA7E1F;
+    }
+    .active + .baritems:after 
+    {
+        background-color: #EA7E1F;
+    }
+    table
+    {
+        width: 100%;
+        margin-bottom: 100px;
+        border-collapse: collapse;
+    }
+    th
+    {
+        padding: 5px;
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 35px;
+        border: 2px solid #1C1C21;
+    }
+    td
+    {  
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        color: #1C1C21;
+    }
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 20px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 100%;
+        height: 100%;
+    }
+    input[type=submit]:hover
+    {
+        background-color: #EA7E1F;
+    }
+    #submit-btn
+    {
+        width: 32%;
+        float: right;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -100px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+    }
+    #submit-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #back-btn
+    {
+        width: 32%;
+        float: left;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -100px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+    }
+    #back-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #promosub
+    {
+        width: 200px;
+        border-left: 2px solid transparent;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -100px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+    }
+    #promosub:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #promobox
+    {
+        width: 200px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -100px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        margin-right: -6px;
+    }
+    #promobox:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    #promobox:focus
+    {
+        border-bottom: 2px solid #EA7E1F;
+    }
+    section
+    {
+        margin-bottom: 100px;
+    }
+}

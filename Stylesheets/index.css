@@ -1,0 +1,318 @@
+@media only screen and (max-width : 480px)
+{
+    .bg-img
+    {
+        background-image: url('../photos/gaelle-marcel-YnbJwNXy0YQ-unsplash.jpg');
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #services-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .servicecontainer
+    {
+        margin-bottom: 150px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 20px;
+    }
+    #indoor
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    #outdoor
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    #studio
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    
+    #indoorhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #outdoorhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #studiohead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #indoortxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+    #outdoortxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+    #studiotxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    .bg-img
+    {
+        background-image: url('../photos/gaelle-marcel-YnbJwNXy0YQ-unsplash.jpg');
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #services-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .servicecontainer
+    {
+        margin-bottom: 150px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 20px;
+    }
+    #indoor
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    #outdoor
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    #studio
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    #indoorhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #outdoorhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #studiohead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #indoortxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+    #outdoortxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+    #studiotxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    .bg-img
+    {
+        background-image: url('../photos/gaelle-marcel-YnbJwNXy0YQ-unsplash.jpg');
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #services-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .servicecontainer
+    {
+        margin-top: 30px;
+        margin-bottom: 150px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+    #indoor
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    #outdoor
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    #studio
+    {
+        width: 100%;
+        border: 3px solid #1C1C21;
+        box-shadow: 2px 2px 2px #1C1C21;
+    }
+    #indoorhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #outdoorhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #studiohead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #indoortxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+    #outdoortxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+    #studiotxt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+    

@@ -1,0 +1,307 @@
+@media only screen and (max-width : 480px)
+{
+    #storage-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #membergrid
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+        grid-gap: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .iconname
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: auto;
+    }
+    #txtes
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #fileToUpload
+    {
+        box-sizing: border-box;
+        border: 2px solid #1C1C21;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .centerbtn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    .centerbtn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    #storage-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #membergrid
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,1fr);
+        grid-gap: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .iconname
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: auto;
+    }
+    #txtes
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #fileToUpload
+    {
+        box-sizing: border-box;
+        border: 2px solid #1C1C21;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .centerbtn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    .centerbtn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    #storage-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #membergrid
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .iconname
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    #fileToUpload
+    {
+        box-sizing: border-box;
+        border: 2px solid #1C1C21;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .centerbtn
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+    .centerbtn:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    #txtes
+    {
+        text-align: center;
+    }
+}

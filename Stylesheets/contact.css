@@ -1,0 +1,446 @@
+@media only screen and (max-width : 480px)
+{
+    #contact-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #map
+    {
+        width: 100%;
+        border: 2px solid #1C1C21;
+        margin-bottom: 50px;
+    }
+    #contact-container
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-column-gap: 50px;
+    }
+    .contact
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .icons
+    {
+        margin: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    #enquirytxt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .labels
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 10px;
+        width: 180px;
+        display: inline-block;
+    }
+    .txtbox
+    {
+        width: 300px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+    }
+    .txtbox:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .txtbox:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    #description
+    {
+        width: 300px;
+        height: 200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        vertical-align: top;
+    }
+    #description:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    #description:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }  
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    #contact-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #map
+    {
+        width: 100%;
+        border: 2px solid #1C1C21;
+        margin-bottom: 50px;
+    }
+    #contact-container
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-column-gap: 50px;
+    }
+    .contact
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .icons
+    {
+        margin: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    #enquirytxt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .labels
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 10px;
+        width: 180px;
+        display: inline-block;
+    }
+    .txtbox
+    {
+        width: 300px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+    }
+    .txtbox:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .txtbox:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    #description
+    {
+        width: 300px;
+        height: 200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        vertical-align: top;
+    }
+    #description:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    #description:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }  
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    #contact-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #map
+    {
+        width: 100%;
+        border: 2px solid #1C1C21;
+    }
+    #contact-container
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-column-gap: 50px;
+    }
+    .contact
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .icons
+    {
+        margin: 10px;
+        width: 60px;
+        height: 60px;
+    }
+    #enquirytxt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .labels
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 10px;
+        width: 180px;
+        display: inline-block;
+    }
+    .txtbox
+    {
+        width: 300px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+    }
+    .txtbox:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .txtbox:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    #description
+    {
+        width: 300px;
+        height: 200px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        vertical-align: top;
+    }
+    #description:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    #description:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }   
+}

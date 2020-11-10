@@ -1,0 +1,545 @@
+@media only screen and (max-width : 480px)
+{
+    #mbooking-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    table, thead, tbody, th, td, tr 
+    {
+         display: block;
+    }
+    thead tr 
+    {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+    tr 
+    {
+         margin: 0 0 1rem 0;
+    }
+    tr:nth-child(odd) 
+    {
+         background-color: #EA7E1F;
+    }
+    tr:nth-child(odd) input[type=submit]:hover
+    {
+         background-color: #F5F5F5;
+    }
+    td
+    {  
+        border: none;
+        border-bottom: 2px solid #1C1C21;
+        position: relative;
+        padding-left: 50%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: #1C1C21;
+    }
+    td:before 
+    {
+        position: absolute;
+        top: 20px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    
+    td:nth-of-type(1):before { content: "Username"; }
+    td:nth-of-type(2):before { content: "Date"; }
+    td:nth-of-type(3):before { content: "Time"; }
+    td:nth-of-type(4):before { content: "Category"; }
+    td:nth-of-type(5):before { content: "Grooming"; }
+    td:nth-of-type(6):before { content: "Warm-up"; }
+    td:nth-of-type(7):before { content: "Accessories"; }
+    td:nth-of-type(7):before { content: "Delete"; }
+    
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 100%;
+        height: 100%;
+    }
+    input[type=submit]:hover
+    {
+        background-color: #EA7E1F;
+    }
+    input[type=date],input[type=time]
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    input[type=date]:hover,[type=time]:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    input[type=date]:focus,[type=time]:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    #schedule-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .txts
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+    }
+    #txt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .profilebtns 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    .profilebtns:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    #mbooking-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    table, thead, tbody, th, td, tr 
+    {
+         display: block;
+    }
+    thead tr 
+    {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+    tr 
+    {
+         margin: 0 0 1rem 0;
+    }
+    tr:nth-child(odd) 
+    {
+         background-color: #EA7E1F;
+    }
+    tr:nth-child(odd) input[type=submit]:hover
+    {
+         background-color: #F5F5F5;
+    }
+    td
+    {  
+        border: none;
+        border-bottom: 2px solid #1C1C21;
+        position: relative;
+        padding-left: 50%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        color: #1C1C21;
+    }
+    td:before 
+    {
+        position: absolute;
+        top: 20px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    
+    td:nth-of-type(1):before { content: "Username"; }
+    td:nth-of-type(2):before { content: "Date"; }
+    td:nth-of-type(3):before { content: "Time"; }
+    td:nth-of-type(4):before { content: "Category"; }
+    td:nth-of-type(5):before { content: "Grooming"; }
+    td:nth-of-type(6):before { content: "Warm-up"; }
+    td:nth-of-type(7):before { content: "Accessories"; }
+    td:nth-of-type(7):before { content: "Delete"; }
+    
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 100%;
+        height: 100%;
+    }
+    input[type=submit]:hover
+    {
+        background-color: #EA7E1F;
+    }
+    input[type=date],input[type=time]
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    input[type=date]:hover,[type=time]:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    input[type=date]:focus,[type=time]:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    #schedule-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .txts
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+    }
+    #txt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .profilebtns 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    .profilebtns:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    #mbooking-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #schedule-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    table
+    {
+        width: 100%;
+        margin-bottom: 200px;
+        border-collapse: collapse;
+    }
+    th
+    {
+        padding: 5px;
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 35px;
+        border: 2px solid #1C1C21;
+    }
+    td
+    {  
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        color: #1C1C21;
+    }
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 20px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 100%;
+        height: 100%;
+    }
+    input[type=submit]:hover
+    {
+        background-color: #EA7E1F;
+    }
+    #gridcontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-row-gap: 10px;
+    }
+    p
+    {
+        text-align: center;
+    }
+    input[type=date],input[type=time]
+    {
+        width: 80%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        
+    }
+    input[type=date]:hover,[type=time]:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    input[type=date]:focus,[type=time]:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    .txts
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+    }
+    #txt
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    #submit-btn
+    {
+        width: 32%;
+        float: right;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -100px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+    }
+    #submit-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    #back-btn
+    {
+        width: 32%;
+        float: left;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        padding: 5px;
+        margin-top: -100px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+    }
+    #back-btn:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    .profilebtns 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    .profilebtns:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+}

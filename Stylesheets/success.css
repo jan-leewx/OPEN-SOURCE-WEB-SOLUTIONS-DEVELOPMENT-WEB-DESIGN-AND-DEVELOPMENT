@@ -1,0 +1,119 @@
+@media only screen and (max-width : 480px)
+{
+    #services-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    input[type=submit]:hover
+    {    
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    section
+    {
+        text-align: center;
+        height: 350px;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    #services-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    input[type=submit]:hover
+    {    
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    section
+    {
+        text-align: center;
+        height: 350px;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    #services-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    input[type=submit]
+    {
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        font-size: 25px;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        width: 40%;
+        margin: 50px;
+    }
+    input[type=submit]:hover
+    {    
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+        background-color: #EA7E1F;
+    }
+    section
+    {
+        text-align: center;
+    }
+}

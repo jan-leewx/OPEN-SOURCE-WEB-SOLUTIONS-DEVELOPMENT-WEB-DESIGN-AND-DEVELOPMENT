@@ -1,0 +1,438 @@
+@media only screen and (max-width : 480px)
+{
+    #member-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #memberpara
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #membercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    #signinhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #signuphead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }#gridcontainer
+    {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(7,1fr);
+        grid-row-gap: 10px;
+    }
+    #gridcontainer2
+    {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-row-gap: 10px;
+    }
+    input[type=radio]
+    {
+        color: #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        transform: scale(1.5);
+    }
+    input[type=text],[type=password]
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+    }
+    input[type=text]:hover,[type=password]:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    input[type=text]:focus,[type=password]:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    .txts
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .formmargin
+    {
+        margin-bottom: 50px;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width : 481px) and (max-width : 768px)
+{
+    #member-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: -800px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #memberpara
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #membercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    #signinhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #signuphead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }#gridcontainer
+    {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(7,1fr);
+        grid-row-gap: 10px;
+    }
+    #gridcontainer2
+    {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-row-gap: 10px;
+    }
+    input[type=radio]
+    {
+        color: #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        transform: scale(1.5);
+    }
+    input[type=text],[type=password]
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+    }
+    input[type=text]:hover,[type=password]:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    input[type=text]:focus,[type=password]:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    .txts
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .formmargin
+    {
+        margin-bottom: 50px;
+    }
+    .box
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width : 769px)
+{
+    #member-txt
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 95px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #memberpara
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    #membercontainer
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+    #signinhead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #signuphead
+    {
+        font-family: OstrichSans-Black;
+        color: #1C1C21;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }#gridcontainer
+    {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(7,1fr);
+        grid-row-gap: 10px;
+    }
+    #gridcontainer2
+    {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-row-gap: 10px;
+    }
+    input[type=radio]
+    {
+        color: #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+        transform: scale(1.5);
+    }
+    input[type=text],[type=password]
+    {
+        width: 100%;
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+        border: 2px solid #1C1C21;
+        box-sizing: border-box;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+        outline: none;
+        background-color: transparent;
+    }
+    input[type=text]:hover,[type=password]:hover
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    input[type=text]:focus,[type=password]:focus
+    {
+        border: 2px solid transparent;
+        border-bottom: 2px solid #EA7E1F;
+    }
+    .txts
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        color: #1C1C21;
+        font-size: 25px;
+        padding: 5px;
+    }
+    button 
+    {
+        font-family: Raleway-Thin;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 40px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 2px solid #1C1C21;
+        transform-style: preserve-3d;
+        transition: transform 500ms ease-in-out;
+        transition: all 250ms ease-in-out;
+        cursor: pointer;
+    }
+    button:hover
+    {
+        background-color: #EA7E1F;
+        border: 2px solid transparent;
+        border-bottom: 2px solid #1C1C21;
+    }
+    .formmargin
+    {
+        margin-bottom: 50px;
+    }
+}
